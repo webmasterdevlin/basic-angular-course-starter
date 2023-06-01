@@ -73,7 +73,7 @@ rm -rf ./node_modules/.cache/nx
 - generate shared.module.ts
 - update todo.module.ts
 - update todo.component.html
-- generate navbar component -> path is apps/demo/src/app/shared/navbar
+- generate navbar component -> path is apps/demo/src/app/components/shared/navbar
 - update shared.module.ts by exporting the navbar component
 - import SharedModule in the app.module.ts
 - update app.component.html
