@@ -1,29 +1,3 @@
-## Enable legacy OpenSSL provider.
-
-- On Unix-like (Linux, macOS, Git bash, etc.):
-
-```bash
-export NODE_OPTIONS=--openssl-legacy-provider
-```
-
-- On Windows command prompt:
-
-```cmd
-set NODE_OPTIONS=--openssl-legacy-provider
-```
-
-- On PowerShell:
-
-```pwsh
-$env:NODE_OPTIONS = "--openssl-legacy-provider"
-```
-
-### Prisma setup
-
-- https://www.npmjs.com/package/@nx-tools/nx-prisma
-
----
-
 # Superheroes
 
 ### Running the angular app
@@ -53,10 +27,6 @@ npx prisma studio
 ```sh
 rm -rf ./node_modules/.cache/nx
 ```
-
-### Other Common Observable Operators
-
-- https://dev.to/deborahk/inner-observables-and-higher-order-mapping-hhe
 
 ## Development Steps
 
@@ -90,3 +60,7 @@ rm -rf ./node_modules/.cache/nx
 - update rxjs-sample.module.ts
 - update rxjs-sample.component.ts
 - update rxjs-sample.component.html
+
+### Other Common Observable Operators
+
+- https://dev.to/deborahk/inner-observables-and-higher-order-mapping-hhe
