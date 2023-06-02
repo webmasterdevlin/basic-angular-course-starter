@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "start": "nx run-many --parallel --target=serve --projects=demo,api",
     "ng": "nx",
     "serve.demo": "nx serve demo",
     "serve.api": "nx serve api",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
     "nx": "nx",
-    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "nx workspace-lint && ng lint",
